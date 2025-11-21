@@ -1,0 +1,11 @@
+# data.yaml — Config YOLO pour détection de signatures
+
+
+train: /home/marco/Projet_du_Fin_DEtude_M2/Datasets/CIN_data/images/train
+val: /home/marco/Projet_du_Fin_DEtude_M2/Datasets/CIN_data/images/val
+test: /home/marco/Projet_du_Fin_DEtude_M2/Datasets/CIN_data/images/test
+
+nc: 1  # Nombre de classes
+
+names:
+  - signature
